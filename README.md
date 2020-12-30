@@ -69,3 +69,22 @@ I2C, SPI, USART
 USARTs, CAN, LIN
 Hardware crypto engines
 Timing hardware: QEIs
+SEGGER J-LINK
+SEGGER Ozone
+SEGGER SystemView
+
+To get an RTOS application up and running
+1. Initialize the MCU hardware.
+2. Define your functions.
+3. Map functions to RTOS tasks.
+4. Start the scheduler.
+
+How do you create a task using FreeRTOS APIs?
+How do you delete a task?
+Why is it important to check the return value of the create?
+When is task deletion desired?
+What is a TCB?
+
+Troubleshoot
+- Cannot open JLINK
+=> Install JLINK first, then CUBE IDE due to issues with udev
