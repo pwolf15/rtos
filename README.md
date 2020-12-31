@@ -88,3 +88,20 @@ What is a TCB?
 Troubleshoot
 - Cannot open JLINK
 => Install JLINK first, then CUBE IDE due to issues with udev
+
+Static vs. dynamic memory allocation vs. memory-protected task creation
+xTaskCreate vs. xTaskCreateStatic
+Heap implementations
+Possible task states
+Task starvation
+Optimizing to reduce CPU time
+1. polling => ISRS and DMA
+
+Optimizing to increase performance
+DMA and interrupts
+
+Optimizing to minimize power consumption
+
+Troubleshooting startup
+- task creation failed?
+- scheduler returns unexpectedly?
