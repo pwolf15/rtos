@@ -105,3 +105,15 @@ Optimizing to minimize power consumption
 Troubleshooting startup
 - task creation failed?
 - scheduler returns unexpectedly?
+
+Protecting and Synchronizing Data Using Tasks
+Tasks are meant to be programmed so that they run in parallel. No assumptions can be made where tasks are in their execution with respect to one another, unless they are explicitly synchronized.
+Semaphores are one means of synchronization.
+How is tick delay correlated to time?
+Polling vs. semaphore (CPU utilization and task priority importance)
+Does an RTOS guarantee the successful timeliness of an operation?
+What are some use cases for counting semaphorees?
+Try an example where you have at max 5 TCP connections at once.
+https://www.youtube.com/watch?v=imVEMjjni-M
+
+Should mutexes be used to protect a shared resource?
