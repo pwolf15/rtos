@@ -117,3 +117,8 @@ Try an example where you have at max 5 TCP connections at once.
 https://www.youtube.com/watch?v=imVEMjjni-M
 
 Should mutexes be used to protect a shared resource?
+
+How do you avoid mutex acquisition failure?
+What is a critical section?
+What are software timers and why use them?
+Why use hardware vs. software timers?
