@@ -122,3 +122,8 @@ How do you avoid mutex acquisition failure?
 What is a critical section?
 What are software timers and why use them?
 Why use hardware vs. software timers?
+What is the timer service?
+What is a oneshot vs. repeat timer?
+What are use cases for timers?
+What are the important considerations for the timer?
+What are the limitations of the timer?
