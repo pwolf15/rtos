@@ -127,3 +127,7 @@ What is a oneshot vs. repeat timer?
 What are use cases for timers?
 What are the important considerations for the timer?
 What are the limitations of the timer?
+
+Intertask communications
+How can data be passed between tasks?
+How are queues created?
