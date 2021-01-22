@@ -131,3 +131,20 @@ What are the limitations of the timer?
 Intertask communications
 How can data be passed between tasks?
 How are queues created?
+What are the pros and cons of using pass by reference vs. pass by value with queues?
+What does a colon mean inside a declaration e.g.
+
+``` c++
+typedef struct
+{
+    uint32_t redLEDState : 1;
+    uint32_t blueLEDState : 1;
+    uint32_t greenLEDState : 1;
+    uint32_t msDelayTime;
+    char message[MAX_MSG_LEN];
+} LedStates_t;
+```
+
+What are gotchas when passing by reference?
+What are direct task notifications and why use them?
+Tasks, queues, semaphores, and mutexes are the building blocks of RTOS applications.
