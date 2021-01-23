@@ -148,3 +148,13 @@ typedef struct
 What are gotchas when passing by reference?
 What are direct task notifications and why use them?
 Tasks, queues, semaphores, and mutexes are the building blocks of RTOS applications.
+
+UART: universal asynchronous receiver/trasnmitter
+Direct memory access (DMA)
+FreeRTOS stream buffers
+What is UART?
+How do you create a polled UART driver?
+What is the difference between tasks and ISRs?
+What are ISR-based drivers?
+What are DMA based drivers?
+WHat is STM HAL?
