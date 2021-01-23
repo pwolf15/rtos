@@ -158,3 +158,23 @@ What is the difference between tasks and ISRs?
 What are ISR-based drivers?
 What are DMA based drivers?
 WHat is STM HAL?
+
+Objective: how to implement a UART driver
+
+UART hardware takes bytes of data and transmits them over a wirte by moduling the voltage of a signal line at a predetermined rate.
+Is a clock line required for UART?
+USART: universal synchrnous/asynchronous receiver transmitter
+USART can be either synchronous or asynchrounous (no clock signal)
+UART foundation of RS232, RS422, RS485, Modbus, etc. Also, can be used for multi-processor communication and WiFi and Bluetooth transciever
+
+What needs to be properly configured for UART to transmit?
+- buad rate
+- parity settings
+- flow control
+- stop bits
+
+Setting up UART4
+- configure GPIO lines
+
+What is an interrupt status register?
+What are the pros and cons of using a polled driver?
