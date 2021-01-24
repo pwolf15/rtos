@@ -187,3 +187,21 @@ Is there a difference between a ring buffer and a circular buffer?
 Why use a queue-based vs. bufffer-based ISR implementation?
 
 What is a peripheral?
+How to get data from DMA to DMA controller to memory?
+What is a DMA stream?
+
+How do we initialize / configure DMA?
+How does a buffer-based DMA driver differ with an buffer-based interrupt driver?
+When is the DMA approach most valuable?
+What are the benefits of a queue-based vs. buffer-based implementation?
+What are FreeRTOS stream buffers?
+What problems must be considered when always receiving data with DMA?
+How do stream buffers vary from traditional double-buffer bare metal implementations?
+What are the limitations of stream-buffer?
+How can intermittent data streams be addressed with stream buffers?
+
+What are the different factors that impact what driver model you should select?
+What does serialization mean?
+What is a FreeRTOS message buffer?
+What data rates can be handled by queues?
+When should you use vendor-supplied code?
