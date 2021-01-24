@@ -178,3 +178,12 @@ Setting up UART4
 
 What is an interrupt status register?
 What are the pros and cons of using a polled driver?
+What are the similarities/differences between tasks and ISRs?
+How do you program an ISR?
+Can we use FreeRTOS APIs from ISRs?
+How does the IRQHandler map a function name to an address in the vector table?
+What does vectoring a program counter mean?
+Is there a difference between a ring buffer and a circular buffer?
+Why use a queue-based vs. bufffer-based ISR implementation?
+
+What is a peripheral?
