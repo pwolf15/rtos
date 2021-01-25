@@ -205,3 +205,4 @@ What does serialization mean?
 What is a FreeRTOS message buffer?
 What data rates can be handled by queues?
 When should you use vendor-supplied code?
+What is a shield?
